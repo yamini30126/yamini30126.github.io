@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b172e"/>
+      <stop offset="50%" stop-color="#050c1e"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#cardBg)" stroke="#1e293b" stroke-width="4"/>
+  <circle cx="200" cy="200" r="184" fill="none" stroke="url(#cyanLine)" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+
+  <!-- Neutral User Profile Silhouette (Camera / ID style) -->
+  <g fill="#334155">
+    <!-- Head -->
+    <circle cx="200" cy="145" r="50"/>
+    <!-- Torso -->
+    <path d="M100 290 C100 225, 140 205, 200 205 C260 205, 300 225, 300 290 Z"/>
+  </g>
+
+  <!-- Camera / Photo badge -->
+  <g transform="translate(182, 175)">
+    <circle cx="18" cy="18" r="18" fill="#020617" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M12 14 L15 11 L21 11 L24 14 L26 14 C27.1 14 28 14.9 28 16 L28 23 C28 24.1 27.1 25 26 25 L10 25 C8.9 25 8 24.1 8 23 L8 16 C8 14.9 8.9 14 10 14 Z" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle cx="18" cy="19.5" r="3.5" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+  </g>
+
+  <!-- Text Badge -->
+  <g transform="translate(60, 305)">
+    <rect x="0" y="0" width="280" height="42" rx="12" fill="#020617" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="140" y="20" fill="#f8fafc" font-family="'Poppins', sans-serif" font-size="13" font-weight="600" text-anchor="middle">LANKE YAMINI</text>
+    <text x="140" y="34" fill="#38bdf8" font-family="'Poppins', sans-serif" font-size="10" font-weight="400" text-anchor="middle">Replace with your photograph</text>
+  </g>
+</svg>
